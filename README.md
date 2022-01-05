@@ -4,30 +4,31 @@ download golang
 
 https://golang.org/doc/install?download=go1.15.6.linux-amd64.tar.gz
 
-└──╼ $sudo tar -xvf go1.15.6.linux-amd64.tar.gz  -C /usr/local/
+`sudo tar -xvf go1.15.6.linux-amd64.tar.gz  -C /usr/local/`
 
-└──╼ $sudo chown -R root:root /usr/local/go
+`sudo chown -R root:root /usr/local/go`
 
-└──╼ $sudo gedit ~/.profile                                                                                                                                  
+`sudo gedit ~/.profile`                                                                                                                                
 
 add these two lines 
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+```export GOPATH=$HOME/go
 
-└──╼ $. ~/.profile                                                                                                                                           
+export PATH=$PATH:$GOPATH/bin```
 
-└──╼ $go version
+` ~/.profile `                                                                                                                                          
+
+`go version`
 go version go1.15.6 linux/amd64
 
 --------------------------------Finding Subdomains with Assetfinder
 
 https://github.com/tomnomnom/assetfinder
 
-go get -u github.com/tomnomnom/assetfinder
+`go get -u github.com/tomnomnom/assetfinder`
 
-└──╼ $assetfinder tesla.com                                                                                                                                  
+`assetfinder tesla.com`                                                                                                                                  
 
-└──╼ $assetfinder --subs-only tesla.com                                                                                                                      
+`assetfinder --subs-only tesla.com`                                                                                                                     
 
 
 ------------------------------Finding Subdomains with Amass
@@ -35,7 +36,7 @@ go get -u github.com/tomnomnom/assetfinder
 https://github.com/OWASP/Amass
 https://github.com/OWASP/Amass/blob/master/doc/install.md
 
-└──╼ $export GO111MODULE=on
+`export GO111MODULE=on`
 └──╼ $go get -v github.com/OWASP/Amass/v3/...
 
 └──╼ $amass enum -d tesla.com                                                                                                                                
