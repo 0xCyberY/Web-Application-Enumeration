@@ -22,7 +22,7 @@ export PATH=$PATH:$GOPATH/bin
 ```go version```
 go version go1.15.6 linux/amd64
 
---------------------------------Finding Subdomains with Assetfinder
+###Finding Subdomains with Assetfinder
 
 https://github.com/tomnomnom/assetfinder
 
@@ -33,7 +33,7 @@ https://github.com/tomnomnom/assetfinder
 ```assetfinder --subs-only tesla.com```                                                                                                                     
 
 
-------------------------------Finding Subdomains with Amass
+###Finding Subdomains with Amass
 
 https://github.com/OWASP/Amass
 https://github.com/OWASP/Amass/blob/master/doc/install.md
@@ -44,7 +44,7 @@ https://github.com/OWASP/Amass/blob/master/doc/install.md
 ```amass enum -d tesla.com ```                                                                                                                               
 
 
-----------------------------Finding Alive Domains with Httprobe
+###Finding Alive Domains with Httprobe
 https://github.com/tomnomnom/httprobe
 ```go get -u github.com/tomnomnom/httprobe```
 
@@ -54,7 +54,7 @@ https://github.com/tomnomnom/httprobe
 
 
 
--------------------------------Screenshotting Websites with GoWitness
+###Screenshotting Websites with GoWitness
 https://github.com/sensepost/gowitness
 https://github.com/sensepost/gowitness/wiki/Installation
 
