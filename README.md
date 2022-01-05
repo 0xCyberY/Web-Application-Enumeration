@@ -11,9 +11,11 @@ https://golang.org/doc/install?download=go1.15.6.linux-amd64.tar.gz
 ```sudo gedit ~/.profile```                                                                                                                              
 
 add these two lines 
-```export GOPATH=$HOME/go
 
-export PATH=$PATH:$GOPATH/bin```
+```
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+```
 
 ``` ~/.profile ```                                                                                                                                          
 
